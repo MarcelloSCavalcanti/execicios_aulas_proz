@@ -31,5 +31,3 @@ for(let i=0; i<arrayPostagens.length; i++) {
   <p>${arrayPostagens[i].texto}</p>`;
   mainElement.appendChild(novoPost)
 }
-
-
