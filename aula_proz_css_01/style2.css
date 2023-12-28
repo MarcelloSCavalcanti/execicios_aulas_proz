@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+}
+
+div {
+    background-color: aquamarine;
+    margin: 65px;
+    padding: 20px;
+    border: 8px solid black;
+}
+
+.caixa-do-meio {
+    padding: 40px 20px 60px 80px;
+    margin: 80px 60px 40px 20px;
+    border: 20px solid blue;
+}
+
+#ultima-caixa {
+    background-color: brown;
+}
+
+p {
+    background-color: yellow;
+    margin: 65px;
+    padding: 20px;
+    border: 8px solid black;
+}

@@ -1,0 +1,37 @@
+h1 {
+    color: red;
+}
+
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+}
+div {
+    background-color: gray;
+    padding: 65px;
+    border: 8px solid black;
+    margin: 34px;
+}
+
+.caixa {
+    background-color: aqua;
+}
+
+#ultima-caixa {
+    background-color: brown;
+}
+
+p {
+    background-color: blueviolet;
+}
+
+a {
+    color: white;
+}
+
+.caixa-do-meio {
+    padding:20px 40px 60px 80px;
+    margin: 80px 60px 40px 20px;
+
+    border:20px solid blue
+}
