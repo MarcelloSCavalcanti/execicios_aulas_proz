@@ -1,0 +1,36 @@
+h2 {
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+table td {
+    padding: 1rem;
+}
+
+table h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#localImage {
+    height: 25rem;
+}
+
+#googleMaps img {
+    border-radius: 2rem;
+    width: 45rem;
+        /*para centralizar a imagem na tabela*/
+        display: block;
+        margin: 0 auto;
+}
+
+#googleMaps :hover {
+    transition: 0.75s;
+    transform: scale(1.025);
+    /*eixo-x eixo-y bçur e cor*/
+    box-shadow: 0rem 0rem 2rem black;
+}
+
+#googleMaps :not(:hover) {
+    transition: 0.75s;
+}

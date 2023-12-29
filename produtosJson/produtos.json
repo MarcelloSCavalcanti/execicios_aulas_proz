@@ -1,0 +1,28 @@
+[{
+        "id":1,
+        "nome":"mouse",
+        "marca": "logitech",
+        "categoria": "tecnologia",
+        "preço": 200,
+        "quantidadeEstoque": 100,
+        "disponibilidade": true
+    },
+    {
+        "id":2,
+        "nome":"ventilador",
+        "marca": "Arno",
+        "categoria": "utensílios",
+        "preço": 75,
+        "quantidadeEstoque": 30,
+        "disponibilidade":true
+    },
+    {
+        "id":3,
+        "nome": "bicicleta",
+        "marca": "Oggi",
+        "categoria": "esporte",
+        "preço": 1500,
+        "quantidadeEstoque": 0,
+        "disponibilidade": false
+    }
+]

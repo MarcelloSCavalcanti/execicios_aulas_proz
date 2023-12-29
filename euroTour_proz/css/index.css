@@ -1,0 +1,23 @@
+table {
+    padding:1rem;
+}
+table img {
+    width: 50rem;
+}
+table td {
+    padding: 1rem;
+}
+
+table td p {
+    font-size: 1.3rem;
+}
+.tabelaCidadesTuristicas .infoCidade {
+    text-decoration: none;
+}
+.tabelaCidadesTuristicas .nomeCidade {
+    color:black;
+}
+
+.tabelaCidadesTuristicas .descricaoCidade {
+    color: black;
+}

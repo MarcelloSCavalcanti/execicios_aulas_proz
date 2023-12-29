@@ -1,0 +1,64 @@
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 0.5rem;
+}
+
+section table img {
+    width: 100%;
+    height: 30rem;
+    border-radius: 2rem;
+}
+/*essa parte do css foi feita justamente pois estava aparecendo o link atrás da imagem com o efeito de sombra. para resolver primeiro tive que deixar tudo invisível e depois somente chamar a imagem como visível*/
+#link a{
+    visibility: hidden;
+}
+
+#link img {
+    visibility: visible;
+}
+
+#link :hover {
+    border-radius: 2rem;
+    transform: scale(1.025);
+    box-shadow: 0rem 0rem 2rem black;
+    transition: 0.75s;
+}
+
+#link :not(:hover) {
+    transition: 0.75s;
+}
+
+#link1 :hover{
+    border-radius: 2rem;
+    transform: scale(1.15);
+    transition: 0.75s;
+}
+
+#link1 :not(:hover){
+    transition: 0.75s;
+}
+
+section table h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.introducao img {
+    width: 30rem;
+}
+
+.introducao h3 {
+    font-size: 2rem;
+}
+
+.introducao .googleMaps {
+    height: 17rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
