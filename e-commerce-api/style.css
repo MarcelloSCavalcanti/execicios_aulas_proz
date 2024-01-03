@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #58378c;
+    color: #fefefe;
+}
+
+h1 {
+    margin: 10px;
+    color: orangered;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 10px;
+}
+#nome-produto, #valor-produto, #descricao-produto {
+    width: 400px;
+    margin: 10px 0px;
+}
+
+button {
+    background-color: orangered;
+    color: #fefefe;
+    border-radius: 8px;
+    padding: 8px;
+    border: 0px;
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgb(191, 51, 0);
+    scale: 0.9;
+}
